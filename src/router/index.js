@@ -11,12 +11,11 @@ Vue.use(Router)
 export default new Router({
   mode:"history",
   routes: [
-    // {
-    //   path: '*',
-    //   name: '404',
-    //   component: notfound
-    // },
-    {
+     {
+       path: '*',
+       name: '404',
+       component: notfound
+     },{
       path: '/',
       name: 'home',
       component: indexpage

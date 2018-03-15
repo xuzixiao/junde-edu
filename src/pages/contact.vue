@@ -95,6 +95,11 @@ export default ({
   margin-right: 20px;
   margin-bottom: 10px;
   cursor: default;
+  overflow: hidden;
+}
+
+.contact-list li:hover img{
+  transform: scale(1.5);
 }
 .contact-list li:nth-child(2n){
   margin-right: 0px;
@@ -104,6 +109,7 @@ export default ({
   display: block;
   width:430px;
   height:170px;
+  transition: all 0.8s;
 }
 .contact-list li p{
   display: block;

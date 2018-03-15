@@ -43,9 +43,11 @@ export default {
     float: left;
 } 
 .nav li{
+    width: 100px;
     float: left;
-    margin:0px 75px;
+    margin:0px 55px;
     line-height: 100px;
+    text-align: center;
 }
 .nav li:last-child{
     margin-right: 0px;
@@ -53,5 +55,14 @@ export default {
 .nav li a{
     font-size: 18px;
     font-family:"微软雅黑";
+    color:#333;
+    transition: all 0.3s;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+.nav li a:hover{
+    font-size: 18px;
+    color: #fff;
+    background: #e09430;
 }
 </style>
